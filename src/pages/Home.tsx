@@ -11,6 +11,7 @@ import SportImage from '../assets/category-sport.jpg'
 import MenImage from '../assets/category-men.jpg'
 import WomenImage from '../assets/category-women.jpg'
 import ProductTile from "../components/ProductTile"
+import NewsLetterSection from '../components/NewsletterSection'
 
 export default function Home(){
 
@@ -41,6 +42,7 @@ export default function Home(){
                     )
                 })}
             </RollingSection>
+            <NewsLetterSection />
             <div className="mb-[2000px]"></div>
         </div>
     )

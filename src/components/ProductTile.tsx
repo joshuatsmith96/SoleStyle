@@ -20,7 +20,7 @@ const ProductTile: React.FC<ProductProps> = ({img, product, price, path}) => {
             <a href={`/product/${path}`}>
             <img src={img} alt={`Product image for ${product}`} className="rounded-t h-[170px] w-full object-cover 2xl:h-[220px]" />
             <div className="p-2 px-5">
-                <p className="text-md xl:text-xl break-words">{product}</p>
+                <p className="text-md xl:text-xl overflow-hidden">{product}</p>
                 <div className="flex flex-row justify-between pt-3">
                     <p className="text-sm xl:text-lg">{price}</p>
                     <div>
