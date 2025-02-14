@@ -1,143 +1,405 @@
 [
     {
-      "id": 1,
-      "name": "Nike Air Max 270",
-      "path": "nike-air-max-270",
-      "image": "https://images.unsplash.com/photo-1602882649371-597e570125fd?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Mnx8c25vZXxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["New Arrivals", "Men"]
+        "id": 1,
+        "name": "Nike Air Max 270",
+        "path": "nike-air-max-270",
+        "thumbnail": "src/assets/shoes/shoe1.png",
+        "categories": [
+            "New Arrivals",
+            "Men"
+        ],
+        "price": "25.99",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 2,
-      "name": "Adidas UltraBoost",
-      "path": "adidas-ultraboost",
-      "image": "https://images.unsplash.com/photo-1577644898494-e7983a4b447b?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8MXx8YWRpZGFzfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["New Arrivals", "Men", "Sale"]
+        "id": 2,
+        "name": "Adidas UltraBoost",
+        "path": "adidas-ultraboost",
+        "thumbnail": "src/assets/shoes/shoe2.png",
+        "categories": [
+            "New Arrivals",
+            "Men",
+            "Sale"
+        ],
+        "price": "30.49",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 3,
-      "name": "Puma Suede Classic",
-      "path": "puma-suede-classic",
-      "image": "https://images.unsplash.com/photo-1603384371730-4b56e719a6fb?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8M3x8cHVuYWF8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Women"]
+        "id": 3,
+        "name": "Puma Suede Classic",
+        "path": "puma-suede-classic",
+        "thumbnail": "src/assets/shoes/shoe3.png",
+        "categories": [
+            "Men",
+            "Women"
+        ],
+        "price": "19.75",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 4,
-      "name": "Reebok Classic Leather",
-      "path": "reebok-classic-leather",
-      "image": "https://images.unsplash.com/photo-1594044127310-80e8ba7fc8f0?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OHx8c2hvc3xlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Sale"]
+        "id": 4,
+        "name": "Reebok Classic Leather",
+        "path": "reebok-classic-leather",
+        "thumbnail": "src/assets/shoes/shoe4.png",
+        "categories": [
+            "Men",
+            "Sale"
+        ],
+        "price": "38.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 5,
-      "name": "Converse Chuck Taylor All Star",
-      "path": "converse-chuck-taylor-all-star",
-      "image": "https://images.unsplash.com/photo-1577588760071-4937f5a57fbd?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OXx8Y29udmVyc2V8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Women", "Sale"]
+        "id": 5,
+        "name": "Converse Chuck Taylor All Star",
+        "path": "converse-chuck-taylor-all-star",
+        "thumbnail": "src/assets/shoes/shoe5.png",
+        "categories": [
+            "Men",
+            "Women",
+            "Sale"
+        ],
+        "price": "65.49",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 6,
-      "name": "Vans Old Skool",
-      "path": "vans-old-skool",
-      "image": "https://images.unsplash.com/photo-1598517047810-f6b64a167b9e?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Nnx8dmFuc3xlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Women"]
+        "id": 6,
+        "name": "Vans Old Skool",
+        "path": "vans-old-skool",
+        "thumbnail": "src/assets/shoes/shoe6.png",
+        "categories": [
+            "Men",
+            "Women"
+        ],
+        "price": "24.99",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 7,
-      "name": "New Balance 990v5",
-      "path": "new-balance-990v5",
-      "image": "https://images.unsplash.com/photo-1615261470647-d3b053a8a810?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OXx8bmV3IGJhbGFuY2V8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Sale"]
+        "id": 7,
+        "name": "New Balance 990v5",
+        "path": "new-balance-990v5",
+        "thumbnail": "src/assets/shoes/shoe7.png",
+        "categories": [
+            "Men",
+            "Sale"
+        ],
+        "price": "21.39",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 8,
-      "name": "ASICS Gel-Lyte III",
-      "path": "asics-gel-lyte-iii",
-      "image": "https://images.unsplash.com/photo-1591057612776-bb22b51f13da?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Mnx8YXNpY3N8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Sale"]
+        "id": 8,
+        "name": "ASICS Gel-Lyte III",
+        "path": "asics-gel-lyte-iii",
+        "thumbnail": "src/assets/shoes/shoe8.png",
+        "categories": [
+            "Men",
+            "Sale"
+        ],
+        "price": "26.79",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 9,
-      "name": "Under Armour HOVR Phantom",
-      "path": "under-armour-hovr-phantom",
-      "image": "https://images.unsplash.com/photo-1589338328949-b0d5760cd9c0?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OXx8dW5kZXItYXJvdXJ8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "New Arrivals"]
+        "id": 9,
+        "name": "Under Armour HOVR Phantom",
+        "path": "under-armour-hovr-phantom",
+        "thumbnail": "src/assets/shoes/shoe9.png",
+        "categories": [
+            "Men",
+            "New Arrivals"
+        ],
+        "price": "20.49",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 10,
-      "name": "Saucony Jazz Original",
-      "path": "saucony-jazz-original",
-      "image": "https://images.unsplash.com/photo-1578588360690-6b832dc8e74c?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Mnx8c2F1Y29ueXxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Women", "Sale"]
+        "id": 10,
+        "name": "Saucony Jazz Original",
+        "path": "saucony-jazz-original",
+        "thumbnail": "src/assets/shoes/shoe10.png",
+        "categories": [
+            "Women",
+            "Sale"
+        ],
+        "price": "23.99",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 11,
-      "name": "Nike Air Force 1",
-      "path": "nike-air-force-1",
-      "image": "https://images.unsplash.com/photo-1605225932764-b8a0c6b3a36b?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OXx8YWlyIGZvcmNlfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Women"]
+        "id": 11,
+        "name": "Nike Air Force 1",
+        "path": "nike-air-force-1",
+        "thumbnail": "src/assets/shoes/shoe11.png",
+        "categories": [
+            "Men",
+            "Women"
+        ],
+        "price": "27.99",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 12,
-      "name": "Adidas Yeezy Boost 350",
-      "path": "adidas-yeezy-boost-350",
-      "image": "https://images.unsplash.com/photo-1583846199655-dfb75ec1ff2e?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8M3x8YWRpZGFzfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "New Arrivals"]
+        "id": 12,
+        "name": "Adidas Yeezy Boost 350",
+        "path": "adidas-yeezy-boost-350",
+        "thumbnail": "src/assets/shoes/shoe12.png",
+        "categories": [
+            "Men",
+            "New Arrivals"
+        ],
+        "price": "29.99",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 13,
-      "name": "Fila Disruptor 2",
-      "path": "fila-disruptor-2",
-      "image": "https://images.unsplash.com/photo-1572322262222-2c5a439d4221?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OXx8ZmlsYSBkaXNydXB0b3IyfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Women", "Sale"]
+        "id": 13,
+        "name": "Fila Disruptor 2",
+        "path": "fila-disruptor-2",
+        "thumbnail": "src/assets/shoes/shoe13.png",
+        "categories": [
+            "Women",
+            "Sale"
+        ],
+        "price": "39.49",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 14,
-      "name": "Jordan 1 Retro High OG",
-      "path": "jordan-1-retro-high-og",
-      "image": "https://images.unsplash.com/photo-1600300932769-014800a7e6fc?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Mnx8am9yZGFufGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "New Arrivals"]
+        "id": 14,
+        "name": "Jordan 1 Retro High OG",
+        "path": "jordan-1-retro-high-og",
+        "thumbnail": "src/assets/shoes/shoe14.png",
+        "categories": [
+            "Men",
+            "New Arrivals"
+        ],
+        "price": "41.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 15,
-      "name": "Brooks Ghost 13",
-      "path": "brooks-ghost-13",
-      "image": "https://images.unsplash.com/photo-1587980722322-974cf6cc31db?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Mnx8YnJvb2tzfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Women"]
+        "id": 15,
+        "name": "Brooks Ghost 13",
+        "path": "brooks-ghost-13",
+        "thumbnail": "src/assets/shoes/shoe1.png",
+        "categories": [
+            "Men",
+            "Women"
+        ],
+        "price": "22.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 16,
-      "name": "Nike ZoomX Vaporfly Next%",
-      "path": "nike-zoomx-vaporfly-next",
-      "image": "https://images.unsplash.com/photo-1604401433474-b9e87d1332fd?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Mnx8bm9ja2V0fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "New Arrivals"]
+        "id": 16,
+        "name": "Nike ZoomX Vaporfly Next%",
+        "path": "nike-zoomx-vaporfly-next",
+        "thumbnail": "src/assets/shoes/shoe2.png",
+        "categories": [
+            "Men",
+            "New Arrivals"
+        ],
+        "price": "22.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 17,
-      "name": "Timberland PRO 6\" Pit Boss",
-      "path": "timberland-pro-6-pit-boss",
-      "image": "https://images.unsplash.com/photo-1561065073-3e8fda171706?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8Mnx8dGltYmVyY2FsbCByZWJvYWt8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Sale"]
+        "id": 17,
+        "name": "Timberland PRO 6\" Pit Boss",
+        "path": "timberland-pro-6-pit-boss",
+        "thumbnail": "src/assets/shoes/shoe3.png",
+        "categories": [
+            "Men",
+            "Sale"
+        ],
+        "price": "36.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 18,
-      "name": "Skechers GOwalk Joy",
-      "path": "skechers-gowalk-joy",
-      "image": "https://images.unsplash.com/photo-1589737063464-b0e040d1baf8?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8MXx8c2tlY2hlcnxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Women", "New Arrivals"]
+        "id": 18,
+        "name": "Skechers GOwalk Joy",
+        "path": "skechers-gowalk-joy",
+        "thumbnail": "src/assets/shoes/shoe6.png",
+        "categories": [
+            "Women",
+            "New Arrivals"
+        ],
+        "price": "22.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 19,
-      "name": "Dr. Martens 1460",
-      "path": "dr-martens-1460",
-      "image": "https://images.unsplash.com/photo-1593677353243-d99177bfe50a?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OXx8ZG0gbWFydGVuc3xlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Men", "Women", "Sale"]
+        "id": 19,
+        "name": "Dr. Martens 1460",
+        "path": "dr-martens-1460",
+        "thumbnail": "src/assets/shoes/shoe8.png",
+        "categories": [
+            "Men",
+            "Women",
+            "Sale"
+        ],
+        "price": "36.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     },
     {
-      "id": 20,
-      "name": "Toms Classic Canvas Slip-On",
-      "path": "toms-classic-canvas-slip-on",
-      "image": "https://images.unsplash.com/photo-1562357047-bc0f67454b87?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wzNjk5MHwwfDF8c2VhY2h8OXx8dG9tc3xlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
-      "categories": ["Women", "Children"]
+        "id": 20,
+        "name": "Toms Classic Canvas Slip-On",
+        "path": "toms-classic-canvas-slip-on",
+        "thumbnail": "src/assets/shoes/shoe9.png",
+        "categories": [
+            "Women",
+            "Children"
+        ],
+        "price": "22.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5
+        ]
     }
-  ]
-  
+]

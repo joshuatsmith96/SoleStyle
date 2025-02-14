@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html{
+  scroll-behavior: smooth;
+}
+
 .mainlinks::-webkit-scrollbar {
   display: none;
 }
