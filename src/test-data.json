@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Nike Air Max 270",
         "path": "nike-air-max-270",
-        "thumbnail": "src/assets/shoes/shoe1.png",
+        "thumbnail": "src/assets/shoe1.png",
         "categories": [
             "New Arrivals",
             "Men"
@@ -23,7 +23,7 @@
         "id": 2,
         "name": "Adidas UltraBoost",
         "path": "adidas-ultraboost",
-        "thumbnail": "src/assets/shoes/shoe2.png",
+        "thumbnail": "src/assets/shoe2.png",
         "categories": [
             "New Arrivals",
             "Men",
@@ -44,7 +44,7 @@
         "id": 3,
         "name": "Puma Suede Classic",
         "path": "puma-suede-classic",
-        "thumbnail": "src/assets/shoes/shoe3.png",
+        "thumbnail": "src/assets/shoe3.png",
         "categories": [
             "Men",
             "Women"
@@ -64,7 +64,7 @@
         "id": 4,
         "name": "Reebok Classic Leather",
         "path": "reebok-classic-leather",
-        "thumbnail": "src/assets/shoes/shoe4.png",
+        "thumbnail": "src/assets/shoe4.png",
         "categories": [
             "Men",
             "Sale"
@@ -84,7 +84,7 @@
         "id": 5,
         "name": "Converse Chuck Taylor All Star",
         "path": "converse-chuck-taylor-all-star",
-        "thumbnail": "src/assets/shoes/shoe5.png",
+        "thumbnail": "src/assets/shoe5.png",
         "categories": [
             "Men",
             "Women",
@@ -105,7 +105,7 @@
         "id": 6,
         "name": "Vans Old Skool",
         "path": "vans-old-skool",
-        "thumbnail": "src/assets/shoes/shoe6.png",
+        "thumbnail": "src/assets/shoe6.png",
         "categories": [
             "Men",
             "Women"
@@ -125,7 +125,7 @@
         "id": 7,
         "name": "New Balance 990v5",
         "path": "new-balance-990v5",
-        "thumbnail": "src/assets/shoes/shoe7.png",
+        "thumbnail": "src/assets/shoe7.png",
         "categories": [
             "Men",
             "Sale"
@@ -145,7 +145,7 @@
         "id": 8,
         "name": "ASICS Gel-Lyte III",
         "path": "asics-gel-lyte-iii",
-        "thumbnail": "src/assets/shoes/shoe8.png",
+        "thumbnail": "src/assets/shoe8.png",
         "categories": [
             "Men",
             "Sale"
@@ -165,7 +165,7 @@
         "id": 9,
         "name": "Under Armour HOVR Phantom",
         "path": "under-armour-hovr-phantom",
-        "thumbnail": "src/assets/shoes/shoe9.png",
+        "thumbnail": "src/assets/shoe9.png",
         "categories": [
             "Men",
             "New Arrivals"
@@ -185,7 +185,7 @@
         "id": 10,
         "name": "Saucony Jazz Original",
         "path": "saucony-jazz-original",
-        "thumbnail": "src/assets/shoes/shoe10.png",
+        "thumbnail": "src/assets/shoe10.png",
         "categories": [
             "Women",
             "Sale"
@@ -205,7 +205,7 @@
         "id": 11,
         "name": "Nike Air Force 1",
         "path": "nike-air-force-1",
-        "thumbnail": "src/assets/shoes/shoe11.png",
+        "thumbnail": "src/assets/shoe11.png",
         "categories": [
             "Men",
             "Women"
@@ -225,7 +225,7 @@
         "id": 12,
         "name": "Adidas Yeezy Boost 350",
         "path": "adidas-yeezy-boost-350",
-        "thumbnail": "src/assets/shoes/shoe12.png",
+        "thumbnail": "src/assets/shoe12.png",
         "categories": [
             "Men",
             "New Arrivals"
@@ -245,7 +245,7 @@
         "id": 13,
         "name": "Fila Disruptor 2",
         "path": "fila-disruptor-2",
-        "thumbnail": "src/assets/shoes/shoe13.png",
+        "thumbnail": "src/assets/shoe13.png",
         "categories": [
             "Women",
             "Sale"
@@ -265,7 +265,7 @@
         "id": 14,
         "name": "Jordan 1 Retro High OG",
         "path": "jordan-1-retro-high-og",
-        "thumbnail": "src/assets/shoes/shoe14.png",
+        "thumbnail": "src/assets/shoe14.png",
         "categories": [
             "Men",
             "New Arrivals"
@@ -285,7 +285,7 @@
         "id": 15,
         "name": "Brooks Ghost 13",
         "path": "brooks-ghost-13",
-        "thumbnail": "src/assets/shoes/shoe1.png",
+        "thumbnail": "src/assets/shoe1.png",
         "categories": [
             "Men",
             "Women"
@@ -305,7 +305,7 @@
         "id": 16,
         "name": "Nike ZoomX Vaporfly Next%",
         "path": "nike-zoomx-vaporfly-next",
-        "thumbnail": "src/assets/shoes/shoe2.png",
+        "thumbnail": "src/assets/shoe2.png",
         "categories": [
             "Men",
             "New Arrivals"
@@ -325,7 +325,7 @@
         "id": 17,
         "name": "Timberland PRO 6\" Pit Boss",
         "path": "timberland-pro-6-pit-boss",
-        "thumbnail": "src/assets/shoes/shoe3.png",
+        "thumbnail": "src/assets/shoe3.png",
         "categories": [
             "Men",
             "Sale"
@@ -345,7 +345,7 @@
         "id": 18,
         "name": "Skechers GOwalk Joy",
         "path": "skechers-gowalk-joy",
-        "thumbnail": "src/assets/shoes/shoe6.png",
+        "thumbnail": "src/assets/shoe6.png",
         "categories": [
             "Women",
             "New Arrivals"
@@ -365,7 +365,7 @@
         "id": 19,
         "name": "Dr. Martens 1460",
         "path": "dr-martens-1460",
-        "thumbnail": "src/assets/shoes/shoe8.png",
+        "thumbnail": "src/assets/shoe8.png",
         "categories": [
             "Men",
             "Women",
@@ -386,7 +386,7 @@
         "id": 20,
         "name": "Toms Classic Canvas Slip-On",
         "path": "toms-classic-canvas-slip-on",
-        "thumbnail": "src/assets/shoes/shoe9.png",
+        "thumbnail": "src/assets/shoe9.png",
         "categories": [
             "Women",
             "Children"

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router";
 
 //Import Components
 import SearchBar from "../Search/SearchBar";
@@ -22,7 +23,7 @@ export default function LargeNavBar() {
           <SearchBar />
           <div className="icons flex flex-row justify-center items-center gap-10 text-xl">
             <FontAwesomeIcon icon={faUser} className="" />
-            <FontAwesomeIcon icon={faHeart} />
+            <Link to="/favorites"><FontAwesomeIcon icon={faHeart} /></Link>
             <FontAwesomeIcon icon={faBagShopping} />
           </div>
         </div>

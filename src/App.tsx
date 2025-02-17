@@ -8,6 +8,9 @@ import LargeNavBar from './components/Navigation/LargeNavBar'
 //Pages
 import Home from './pages/Home'
 import Error from './pages/Error'
+import ProductPage from './pages/ProductPage'
+import Favorites from './pages/Favorites'
+import CategoryPage from './pages/CategoryPage'
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
       <LargeNavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/favorites" element={<Favorites />}/>
+        <Route path="/product/:id" element={<ProductPage/>}/>
+        <Route path="/category/:id" element={<CategoryPage/>}/>
         <Route path="*" element={<Error />} />
       </Routes>
     </div>
