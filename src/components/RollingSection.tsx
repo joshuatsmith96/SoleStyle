@@ -29,13 +29,13 @@ const Section: React.FC<SectionProps> = ({ children, title, scrollButtons, butto
     <div className="Section relative flex flex-col py-2 px-4 md:px-15 xl:py-10">
       <div className={`absolute top-1/2 justify-between w-[90%] gap-2 mb-2 hidden ${scrollButtons ? 'md:flex' : 'hidden'}`}>
       <button
-          className={`hover:cursor-pointer text-5xl xl:text-6xl 2xl:text-7xl ${buttonColor ? buttonColor : ""}`}
+          className={`absolute left-0 hover:cursor-pointer text-5xl xl:text-6xl 2xl:text-7xl ${buttonColor ? buttonColor : ""}`}
           onClick={scrollLeft}
         >
           <FontAwesomeIcon icon={faChevronCircleLeft}/>
         </button>
         <button
-          className={`hover:cursor-pointer text-5xl xl:text-6xl 2xl:text-7xl ${buttonColor ? buttonColor : ""}`}
+          className={`absolute right-0 hover:cursor-pointer text-5xl xl:text-6xl 2xl:text-7xl ${buttonColor ? buttonColor : ""}`}
           onClick={scrollRight}
         >
           <FontAwesomeIcon icon={faChevronCircleRight}/>
