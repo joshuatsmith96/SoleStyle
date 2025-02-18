@@ -12,6 +12,8 @@ import NavList from "./NavList";
 export default function LargeNavBar() {
 
   let favorites = localStorage.getItem("favorites") != null ? localStorage.getItem("favorites") : null;
+  let cart = localStorage.getItem("cart") != null ? localStorage.getItem("cart") : null;
+  let formattedCart = cart != null ? JSON.parse(cart) : ""
   let formattedFavorites = favorites != null ? JSON.parse(favorites) : ""
 
   return (
@@ -28,10 +30,13 @@ export default function LargeNavBar() {
           <div className="icons flex flex-row justify-center items-center gap-10 text-xl">
           <Link to="/profile" className="text-3xl"><FontAwesomeIcon icon={faUser} className="" /></Link>
           <Link to="/favorites" className="relative">
-            <p className="heartCounter absolute text-white font-bold left-0 top-0 w-full h-full flex flex-col items-center justify-center text-[14px] pb-[2px]">{formattedFavorites.length === 0 ? "" : formattedFavorites.length}</p>
+            <p className="heartCounter absolute text-white text-[16px] border z-10 bg-blue-400 w-[25px] h-[25px] rounded-full text-center top-[-10px] right-[-14px] flex flex-row justify-center items-center">{formattedFavorites.length === 0 ? "" : formattedFavorites.length}</p>
             <FontAwesomeIcon icon={faHeart} className="text-3xl "/>
           </Link>
-          <Link to="/cart"><FontAwesomeIcon icon={faBagShopping} className="text-3xl "/></Link>
+          <Link to="/cart" className="relative">
+            <p className="cartCounter absolute text-white text-[16px] border z-10 bg-blue-400 w-[25px] h-[25px] rounded-full text-center top-[-10px] right-[-14px] flex flex-row justify-center items-center">{formattedCart.length === 0 ? "" : formattedCart.length}</p>
+            <FontAwesomeIcon icon={faBagShopping} className="text-3xl relative"/>
+          </Link>
           </div>
         </div>
       </div>
