@@ -17,7 +17,12 @@
             9.5,
             10,
             10.5
-        ]
+        ],
+        "reviews": {
+            "stars": "4.8",
+            "reviews": "2.5k"
+        },
+        "description": "The Nike Air Max 270 is a stylish and functional shoe designed for both comfort and performance. Featuring the largest Air unit in the heel, this sneaker offers maximum cushioning for all-day wear, whether you’re hitting the streets or taking on the track. Its sleek design and modern colorways ensure that you stand out in any setting. \nPerfect for athletes and sneaker enthusiasts alike, the Air Max 270 is built for versatility. The breathable mesh upper keeps your feet cool, while the lightweight construction ensures a snug, comfortable fit."
     },
     {
         "id": 2,
@@ -38,7 +43,12 @@
             9.5,
             10,
             10.5
-        ]
+        ],
+        "reviews": {
+            "stars": "4.2",
+            "reviews": "1.3k"
+        },
+        "description": "The Adidas UltraBoost combines a responsive midsole with unparalleled comfort, creating the ultimate performance shoe. Ideal for long-distance runners and everyday wear, it features Boost technology that provides energy return with every step. Its adaptable design fits like a glove and works seamlessly for both athletic performance and casual wear. \nWith a primeknit upper, the UltraBoost offers a sock-like fit that moves with your foot, ensuring both comfort and stability. Whether you’re out for a jog or hanging out with friends, this shoe provides the support you need throughout the day."
     },
     {
         "id": 3,
@@ -58,7 +68,12 @@
             9.5,
             10,
             10.5
-        ]
+        ],
+        "reviews": {
+            "stars": "4.1",
+            "reviews": "1.1k"
+        },
+        "description": "The Puma Suede Classic is a timeless sneaker with a sleek, minimalist design. Known for its soft suede upper and comfortable fit, this shoe is perfect for casual outings or pairing with your favorite jeans. Its iconic style and clean lines have made it a favorite among sneaker lovers worldwide. \nFeaturing a durable rubber outsole and a cushioned insole, the Suede Classic ensures lasting comfort all day long. Whether you’re walking the city streets or enjoying a relaxed day, this versatile sneaker blends style and comfort effortlessly."
     },
     {
         "id": 4,
@@ -75,10 +90,13 @@
             8,
             8.5,
             9,
-            9.5,
-            10,
-            10.5
-        ]
+            9.5
+        ],
+        "reviews": {
+            "stars": "4.8",
+            "reviews": "5.2k"
+        },
+        "description": "The Reebok Classic Leather offers a perfect blend of vintage style and modern comfort. Made with premium leather and suede materials, this iconic sneaker stands out for its timeless design and durable construction. It’s versatile enough to be paired with almost any outfit, whether you’re heading to the gym or out for a casual day. \nWith a cushioned EVA midsole and a supportive rubber outsole, the Reebok Classic Leather provides all-day comfort. Its classic design makes it a go-to for sneaker enthusiasts who want both style and functionality."
     },
     {
         "id": 5,
@@ -96,10 +114,13 @@
             8,
             8.5,
             9,
-            9.5,
-            10,
-            10.5
-        ]
+            9.5
+        ],
+        "reviews": {
+            "stars": "3.8",
+            "reviews": "3.2k"
+        },
+        "description": "The Converse Chuck Taylor All Star is an enduring symbol of casual style. With its canvas upper and rubber toe cap, this shoe has remained a classic for generations. It’s known for its comfort and iconic design that has been popular for decades. Whether you’re skating, walking, or hanging out, it remains a versatile and timeless choice. \nThe Chuck Taylor offers a lightweight feel and is available in a variety of colors and styles. Its flexible sole provides ease of movement, making it ideal for everyday wear. This sneaker pairs effortlessly with both casual and trendy outfits."
     },
     {
         "id": 6,
@@ -119,7 +140,12 @@
             9.5,
             10,
             10.5
-        ]
+        ],
+        "reviews": {
+            "stars": "4.8",
+            "reviews": "2.5k"
+        },
+        "description": "The Vans Old Skool is the perfect combination of retro style and modern functionality. With its signature side stripe and durable canvas and suede construction, this sneaker is both stylish and tough enough to handle the wear and tear of everyday use. Whether you’re skating or just out for a casual day, the Old Skool has you covered. \nIts low-top design offers a sleek silhouette, while the padded collar ensures a snug, comfortable fit. The vulcanized rubber sole offers excellent grip, making this shoe ideal for both action-packed days and laid-back moments."
     },
     {
         "id": 7,
@@ -137,9 +163,13 @@
             8.5,
             9,
             9.5,
-            10,
-            10.5
-        ]
+            10
+        ],
+        "reviews": {
+            "stars": "4.2",
+            "reviews": "4.5k"
+        },
+        "description": "The New Balance 990v5 is designed to offer premium performance and everyday comfort. Featuring a mix of suede and mesh materials, this shoe offers breathability while providing superior support. The shoe’s stability and cushioning make it perfect for running, walking, or casual wear. \nIts ENCAP midsole cushioning enhances durability while providing support, while the rubber outsole gives you excellent traction. Ideal for anyone who needs a reliable and comfortable sneaker, the 990v5 can be worn for any occasion."
     },
     {
         "id": 8,
@@ -155,11 +185,13 @@
         "sizes": [
             8,
             8.5,
-            9,
-            9.5,
-            10,
-            10.5
-        ]
+            9
+        ],
+        "reviews": {
+            "stars": "3.2",
+            "reviews": "2.5k"
+        },
+        "description": "The ASICS Gel-Lyte III offers a combination of style, comfort, and technology. Its signature Gel cushioning provides superior shock absorption, making it a great choice for runners or anyone on their feet all day. The dual-density midsole ensures added support and comfort. \nWith its iconic split tongue design and sleek, modern aesthetic, the Gel-Lyte III stands out in the sneaker world. The durable rubber outsole provides excellent grip, making it a versatile option for both athletic and casual wear."
     },
     {
         "id": 9,
@@ -179,18 +211,23 @@
             9.5,
             10,
             10.5
-        ]
+        ],
+        "reviews": {
+            "stars": "5",
+            "reviews": "223"
+        },
+        "description": "The Under Armour HOVR Phantom is built for ultimate comfort and performance. With HOVR technology, it provides a 'zero gravity feel' to maintain energy return that helps eliminate impact. Its breathable mesh upper keeps your feet cool while the supportive design ensures a perfect fit. \nDesigned for high-impact training and daily runs, the HOVR Phantom has a lightweight, flexible feel, making it ideal for all levels of activity. Its durable outsole delivers superior grip, while the sleek look works for both athletic and casual settings."
     },
     {
         "id": 10,
-        "name": "Saucony Jazz Original",
-        "path": "saucony-jazz-original",
+        "name": "Nike ZoomX Vaporfly Next%",
+        "path": "nike-zoomx-vaporfly-next",
         "thumbnail": "src/assets/shoe10.png",
         "categories": [
-            "Women",
-            "Sale"
+            "Men",
+            "New Arrivals"
         ],
-        "price": "23.99",
+        "price": "245.99",
         "featured": true,
         "sizes": [
             8,
@@ -199,18 +236,23 @@
             9.5,
             10,
             10.5
-        ]
+        ],
+        "reviews": {
+            "stars": "4.7",
+            "reviews": "800"
+        },
+        "description": "The Nike ZoomX Vaporfly Next% is engineered for elite-level speed. With ZoomX foam for ultra-lightweight cushioning and a carbon fiber plate for propulsion, this shoe is designed to maximize performance for long-distance runners. The sleek upper construction ensures breathability, while the unique design provides a secure fit. Whether you're training for a marathon or aiming for personal bests, the Vaporfly Next% delivers the optimal combination of speed and comfort."
     },
     {
         "id": 11,
-        "name": "Nike Air Force 1",
-        "path": "nike-air-force-1",
+        "name": "Saucony Endorphin Pro",
+        "path": "saucony-endorphin-pro",
         "thumbnail": "src/assets/shoe11.png",
         "categories": [
             "Men",
-            "Women"
+            "New Arrivals"
         ],
-        "price": "27.99",
+        "price": "189.99",
         "featured": true,
         "sizes": [
             8,
@@ -219,18 +261,96 @@
             9.5,
             10,
             10.5
-        ]
+        ],
+        "reviews": {
+            "stars": "4.9",
+            "reviews": "950"
+        },
+        "description": "The Saucony Endorphin Pro is a high-performance running shoe built to help you achieve your fastest times. Featuring PWRRUNPB cushioning and a SPEEDROLL technology that propels you forward with each stride, this shoe is engineered for speed and efficiency. The lightweight, breathable upper offers a sock-like fit, and the carbon plate inside enhances propulsion for a responsive run. Ideal for marathon runners and performance enthusiasts, the Endorphin Pro helps you unlock your best run yet."
     },
     {
         "id": 12,
-        "name": "Adidas Yeezy Boost 350",
-        "path": "adidas-yeezy-boost-350",
+        "name": "Brooks Ghost 14",
+        "path": "brooks-ghost-14",
         "thumbnail": "src/assets/shoe12.png",
+        "categories": [
+            "Men",
+            "Women"
+        ],
+        "price": "130.49",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10
+        ],
+        "reviews": {
+            "stars": "4.5",
+            "reviews": "3.2k"
+        },
+        "description": "The Brooks Ghost 14 is designed to provide a smooth and comfortable ride for runners of all levels. With DNA Loft cushioning, this shoe offers a plush feel without compromising responsiveness. The engineered mesh upper provides breathability, while the Segmented Crash Pad ensures a soft, cushioned landing. Whether you're running on trails or pavement, the Ghost 14 adapts to your stride for a seamless, comfortable experience from start to finish."
+    },
+    {
+        "id": 13,
+        "name": "Nike React Infinity Run Flyknit",
+        "path": "nike-react-infinity-run-flyknit",
+        "thumbnail": "src/assets/shoe13.png",
+        "categories": [
+            "Men",
+            "Women"
+        ],
+        "price": "169.99",
+        "featured": false,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10
+        ],
+        "reviews": {
+            "stars": "4.6",
+            "reviews": "2.3k"
+        },
+        "description": "The Nike React Infinity Run Flyknit is built to help reduce injuries and keep you running longer. Featuring React foam technology for a responsive yet cushioned ride, this shoe is designed to provide maximum comfort with every step. The Flyknit upper offers a breathable, supportive fit, while the wide sole ensures stability and smooth transitions. Ideal for runners looking for long-lasting support, the React Infinity Run helps you run further with less fatigue."
+    },
+    {
+        "id": 14,
+        "name": "Hoka One One Clifton 8",
+        "path": "hoka-one-one-clifton-8",
+        "thumbnail": "src/assets/shoe14.png",
+        "categories": [
+            "Men",
+            "Women",
+            "New Arrivals"
+        ],
+        "price": "140.00",
+        "featured": true,
+        "sizes": [
+            8,
+            8.5,
+            9,
+            9.5,
+            10
+        ],
+        "reviews": {
+            "stars": "4.8",
+            "reviews": "1.8k"
+        },
+        "description": "The Hoka One One Clifton 8 is known for its incredible cushioning and lightweight feel, making it a favorite for runners who need comfort and support on long-distance runs. The full-compression EVA midsole offers a plush, soft ride, while the Meta-Rocker geometry promotes a smooth, efficient stride. The engineered mesh upper provides excellent breathability, keeping your feet cool and dry during your runs. Whether you're training for a race or enjoying a daily jog, the Clifton 8 ensures a comfortable and smooth ride."
+    },
+    {
+        "id": 15,
+        "name": "Adidas Adizero Adios Pro 2",
+        "path": "adidas-adizero-adios-pro-2",
+        "thumbnail": "src/assets/shoe5.png",
         "categories": [
             "Men",
             "New Arrivals"
         ],
-        "price": "29.99",
+        "price": "249.99",
         "featured": true,
         "sizes": [
             8,
@@ -239,167 +359,132 @@
             9.5,
             10,
             10.5
-        ]
-    },
-    {
-        "id": 13,
-        "name": "Fila Disruptor 2",
-        "path": "fila-disruptor-2",
-        "thumbnail": "src/assets/shoe13.png",
-        "categories": [
-            "Women",
-            "Sale"
         ],
-        "price": "39.49",
-        "featured": false,
-        "sizes": [
-            8,
-            8.5,
-            9,
-            9.5,
-            10,
-            10.5
-        ]
+        "reviews": {
+            "stars": "4.9",
+            "reviews": "350"
+        },
+        "description": "The Adidas Adizero Adios Pro 2 is a performance-driven racing shoe that pushes the boundaries of speed. Designed for elite athletes, it features Lightstrike Pro cushioning, which provides a perfect balance of speed and comfort. The carbon-infused EnergyRods enhance propulsion, helping you achieve faster times. The mesh upper ensures breathability and a snug fit, while the ultra-lightweight construction maximizes efficiency. If you’re looking for a competitive edge, the Adizero Adios Pro 2 is engineered to help you break your personal bests."
     },
     {
-        "id": 14,
-        "name": "Jordan 1 Retro High OG",
-        "path": "jordan-1-retro-high-og",
-        "thumbnail": "src/assets/shoe14.png",
-        "categories": [
-            "Men",
-            "New Arrivals"
-        ],
-        "price": "41.99",
-        "featured": false,
-        "sizes": [
-            8,
-            8.5,
-            9,
-            9.5,
-            10,
-            10.5
-        ]
-    },
-    {
-        "id": 15,
-        "name": "Brooks Ghost 13",
-        "path": "brooks-ghost-13",
-        "thumbnail": "src/assets/shoe1.png",
+        "id": 16,
+        "name": "On Cloudflow",
+        "path": "on-cloudflow",
+        "thumbnail": "src/assets/shoe4.png",
         "categories": [
             "Men",
             "Women"
         ],
-        "price": "22.99",
+        "price": "139.99",
         "featured": false,
         "sizes": [
             8,
             8.5,
             9,
             9.5,
-            10,
-            10.5
-        ]
-    },
-    {
-        "id": 16,
-        "name": "Nike ZoomX Vaporfly Next%",
-        "path": "nike-zoomx-vaporfly-next",
-        "thumbnail": "src/assets/shoe2.png",
-        "categories": [
-            "Men",
-            "New Arrivals"
+            10
         ],
-        "price": "22.99",
-        "featured": false,
-        "sizes": [
-            8,
-            8.5,
-            9,
-            9.5,
-            10,
-            10.5
-        ]
+        "reviews": {
+            "stars": "4.3",
+            "reviews": "1.7k"
+        },
+        "description": "The On Cloudflow combines speed and comfort with its innovative CloudTec cushioning system, designed to deliver maximum energy return. The lightweight construction and breathable mesh upper allow for a comfortable, responsive fit, making it perfect for both training and race day. The shoe's flexible sole helps propel you forward with each step, giving you a natural feel while running. Whether you're sprinting or hitting the trails, the Cloudflow ensures performance and comfort every step of the way."
     },
     {
         "id": 17,
-        "name": "Timberland PRO 6\" Pit Boss",
-        "path": "timberland-pro-6-pit-boss",
+        "name": "New Balance FuelCell Rebel v2",
+        "path": "new-balance-fuelcell-rebel-v2",
         "thumbnail": "src/assets/shoe3.png",
         "categories": [
             "Men",
-            "Sale"
+            "Women"
         ],
-        "price": "36.99",
+        "price": "120.00",
         "featured": false,
         "sizes": [
             8,
             8.5,
             9,
             9.5,
-            10,
-            10.5
-        ]
+            10
+        ],
+        "reviews": {
+            "stars": "4.4",
+            "reviews": "1.2k"
+        },
+        "description": "The New Balance FuelCell Rebel v2 offers a high-energy ride for runners who crave speed and comfort. Featuring FuelCell technology in the midsole, it delivers a responsive, energetic feel with every stride. The engineered knit upper provides a snug, breathable fit, while the lightweight design allows for smooth transitions. Whether you're on a quick jog or a fast-paced run, the FuelCell Rebel v2 keeps you energized and comfortable."
     },
     {
         "id": 18,
-        "name": "Skechers GOwalk Joy",
-        "path": "skechers-gowalk-joy",
-        "thumbnail": "src/assets/shoe6.png",
+        "name": "Under Armour UA Flow Velociti Wind",
+        "path": "under-armour-ua-flow-velociti-wind",
+        "thumbnail": "src/assets/shoe2.png",
         "categories": [
-            "Women",
-            "New Arrivals"
+            "Men",
+            "Women"
         ],
-        "price": "22.99",
+        "price": "140.00",
         "featured": false,
         "sizes": [
             8,
             8.5,
             9,
             9.5,
-            10,
-            10.5
-        ]
+            10
+        ],
+        "reviews": {
+            "stars": "4.3",
+            "reviews": "800"
+        },
+        "description": "The Under Armour UA Flow Velociti Wind is engineered for runners who want a lightweight, responsive, and fast shoe. The UA Flow midsole delivers unmatched cushioning and energy return, making each step feel effortless. Its breathable mesh upper ensures comfort during intense runs, while the seamless construction offers a snug, supportive fit. Whether you're running at full speed or doing speed training, the Velociti Wind helps you stay light on your feet."
     },
     {
         "id": 19,
-        "name": "Dr. Martens 1460",
-        "path": "dr-martens-1460",
-        "thumbnail": "src/assets/shoe8.png",
+        "name": "Nike Pegasus 39",
+        "path": "nike-pegasus-39",
+        "thumbnail": "src/assets/shoe1.png",
         "categories": [
             "Men",
             "Women",
-            "Sale"
+            "New Arrivals"
         ],
-        "price": "36.99",
-        "featured": false,
+        "price": "120.99",
+        "featured": true,
         "sizes": [
             8,
             8.5,
             9,
             9.5,
-            10,
-            10.5
-        ]
+            10
+        ],
+        "reviews": {
+            "stars": "4.6",
+            "reviews": "900"
+        },
+        "description": "The Nike Pegasus 39 is designed for long-distance runners seeking a durable, responsive shoe. With a combination of React foam cushioning and Zoom Air units, it offers an ideal balance of comfort and speed. The breathable mesh upper ensures airflow, keeping your feet cool and dry, while the flexible sole offers smooth transitions. The Pegasus 39 is built to go the distance, providing reliable support and cushioning mile after mile."
     },
     {
         "id": 20,
-        "name": "Toms Classic Canvas Slip-On",
-        "path": "toms-classic-canvas-slip-on",
+        "name": "Asics Gel Nimbus 24",
+        "path": "asics-gel-nimbus-24",
         "thumbnail": "src/assets/shoe9.png",
         "categories": [
-            "Women",
-            "Children"
+            "Men",
+            "Women"
         ],
-        "price": "22.99",
+        "price": "160.00",
         "featured": false,
         "sizes": [
             8,
             8.5,
             9,
             9.5,
-            10,
-            10.5
-        ]
+            10
+        ],
+        "reviews": {
+            "stars": "4.7",
+            "reviews": "2.5k"
+        },
+        "description": "The Asics Gel Nimbus 24 is a premium running shoe designed for long-distance comfort and support. With GEL cushioning in both the forefoot and rearfoot, it offers superior shock absorption. The lightweight mesh upper provides a flexible, breathable fit, while the Dynamic DuoMax support system helps with stability. Whether you're running on roads or trails, the Gel Nimbus 24 delivers a smooth and comfortable ride with every stride."
     }
 ]

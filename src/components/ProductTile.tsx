@@ -18,7 +18,7 @@ const ProductTile: React.FC<ProductProps> = ({img, product, price, path, id, hea
     //Check to see if product is hearted
     
 
-    const addFavorite = (e:any) => {
+    const addFavorite = () => {
         let favorites = localStorage.getItem("favorites")
         let newFavorite;
         if(heart === "outline"){
@@ -55,7 +55,18 @@ const ProductTile: React.FC<ProductProps> = ({img, product, price, path, id, hea
 
 
             console.log("AFTER")
-            console.log(newFavorite)
+        }
+
+        //Change all heart counters based on the number of hearted objects
+        let heartCounter = document.getElementsByClassName("heartCounter")
+        favorites = localStorage.getItem("favorites");
+        let count = favorites != null ? JSON.parse(favorites).length : "";
+        for(let i=0; i<=heartCounter.length-1; i++){
+            if(count === 0){
+                heartCounter[i].innerHTML = "";
+            } else {
+                heartCounter[i].innerHTML = count;
+            }
         }
     }
 
@@ -67,7 +78,7 @@ const ProductTile: React.FC<ProductProps> = ({img, product, price, path, id, hea
                 <div className="flex flex-row justify-between pt-3">
                     <p className="text-sm xl:text-lg">{price}</p>
                     <div className="hearts">
-                        <FontAwesomeIcon icon={heart === "outline" ? outlinedHeart : solidHeart} className="outlinedHeart hover:cursor-pointer xl:text-2xl z-10" onClick={(e) => addFavorite(e)}/>
+                        <FontAwesomeIcon icon={heart === "outline" ? outlinedHeart : solidHeart} className="outlinedHeart hover:cursor-pointer xl:text-2xl z-10" onClick={() => addFavorite()}/>
                     </div>
                 </div>
             </div>
