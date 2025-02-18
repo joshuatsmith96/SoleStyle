@@ -6,14 +6,14 @@ const Footer = () => {
     <div>
             <div className="p-5 bg-[#F3F3F3] flex flex-col gap-10 pb-10 lg:flex-row justify-evenly">
       <div className="lg:w-[400px]">
-        <h2 className="font-semibold text-xl mb-3 xl:text-2xl">About Us</h2>
+        <h2 className="font-semibold text-xl mb-3 xl:text-2xl text-blue-400">About Us</h2>
         <p className="text-md text-[#5C5C5C] xl:text-lg max-w-[700px]">
           SoleStyle is your premium destination for contemporary footwear,
           offering curated collections for every style.
         </p>
       </div>
       <div>
-        <h2 className="font-semibold text-xl mb-3 xl:text-2xl">Customer Service</h2>
+        <h2 className="font-semibold text-xl mb-3 xl:text-2xl text-blue-400">Customer Service</h2>
         <div className="flex flex-col gap-3">
         <p className="text-[#5C5C5C] hover:cursor-pointer xl:text-lg">Contact Us</p>
         <p className="text-[#5C5C5C] hover:cursor-pointer xl:text-lg">Shipping Policy</p>
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h2 className="font-semibold text-xl mb-3 xl:text-2xl">Quick Links</h2>
+        <h2 className="font-semibold text-xl mb-3 xl:text-2xl text-blue-400">Quick Links</h2>
         <div className="flex flex-col gap-3">
         <p className="text-[#5C5C5C] hover:cursor-pointer xl:text-lg">New Arrivals</p>
         <p className="text-[#5C5C5C] hover:cursor-pointer xl:text-lg">Best Sellers</p>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h2 className="font-semibold text-xl mb-3 xl:text-2xl">Connect With Us</h2>
+        <h2 className="font-semibold text-xl mb-3 xl:text-2xl text-blue-400">Connect With Us</h2>
         <div className="flex flex-row gap-3">
         <FontAwesomeIcon icon={faFacebook} className="text-4xl hover:cursor-pointer"/>
         <FontAwesomeIcon icon={faLinkedin} className="text-4xl hover:cursor-pointer"/>

@@ -78,7 +78,7 @@ const ProductTile: React.FC<ProductProps> = ({img, product, price, path, id, hea
                 <div className="flex flex-row justify-between pt-3">
                     <p className="text-sm xl:text-lg">{price}</p>
                     <div className="hearts">
-                        <FontAwesomeIcon icon={heart === "outline" ? outlinedHeart : solidHeart} className="outlinedHeart hover:cursor-pointer xl:text-2xl z-10" onClick={() => addFavorite()}/>
+                        <FontAwesomeIcon icon={heart === "outline" ? outlinedHeart : solidHeart} className="outlinedHeart hover:cursor-pointer xl:text-2xl z-10 text-red-500" onClick={() => addFavorite()}/>
                     </div>
                 </div>
             </div>

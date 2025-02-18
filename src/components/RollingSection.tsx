@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { faChevronCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 interface SectionProps {
   children: React.ReactNode;
@@ -26,19 +27,19 @@ const Section: React.FC<SectionProps> = ({ children, title, scrollButtons, butto
   };
 
   return (
-    <div className="Section relative flex flex-col py-2 px-4 md:px-15 xl:py-10">
+    <div className="Section relative flex flex-col py-2 px-4 md:px-15 xl:py-10 z-1">
       <div className={`absolute top-1/2 justify-between w-[90%] gap-2 mb-2 hidden ${scrollButtons ? 'md:flex' : 'hidden'}`}>
       <button
-          className={`absolute left-0 hover:cursor-pointer text-5xl xl:text-6xl 2xl:text-7xl ${buttonColor ? buttonColor : ""}`}
+          className={`absolute left-[-20px] w-[75px] h-[75px] text-3xl rounded-full bg-white shadow shadow-black hover:cursor-pointer z-1 ${buttonColor ? buttonColor : ""}`}
           onClick={scrollLeft}
         >
-          <FontAwesomeIcon icon={faChevronCircleLeft}/>
+          <FontAwesomeIcon icon={faChevronLeft} className=""/>
         </button>
         <button
-          className={`absolute right-0 hover:cursor-pointer text-5xl xl:text-6xl 2xl:text-7xl ${buttonColor ? buttonColor : ""}`}
+          className={`absolute right-0 w-[75px] h-[75px] text-3xl rounded-full bg-white shadow shadow-black hover:cursor-pointer z-1 ${buttonColor ? buttonColor : ""}`}
           onClick={scrollRight}
         >
-          <FontAwesomeIcon icon={faChevronCircleRight}/>
+          <FontAwesomeIcon icon={faChevronRight} className=""/>
         </button>
       </div>
       <div className="center">

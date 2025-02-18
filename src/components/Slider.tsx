@@ -12,7 +12,7 @@ const Slider: React.FC<SliderProps> = ({ data }) => {
   // let selectedData = Data.filter(item => item.id.includes("1"))[0]
 
   return (
-    <div className="sm:w-[600px]">
+    <div className="sm:w-[600px] z-0">
       <Carousel className="">
         <div className="h-full">
           <img src={`../${img}`} />

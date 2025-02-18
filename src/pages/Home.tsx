@@ -28,7 +28,7 @@ export default function Home(){
     return(
         <div className="Home">
             <Hero />
-            <RollingSection title="Shop by Category" scrollButtons buttonColor='text-white'>
+            <RollingSection title="Shop by Category" scrollButtons>
                 <CategoryTile title="New Arrivals" path="new-arrivals" img={NewArrivals}/>
                 <CategoryTile title="Men" path="men" img={MenImage}/>
                 <CategoryTile title="Women" path="women" img={WomenImage}/>
