@@ -11,7 +11,7 @@ import {
 import { faHeart as outlinedHeart } from "@fortawesome/free-regular-svg-icons";
 import { faHeart as solidHeart } from "@fortawesome/free-solid-svg-icons";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 const ProductPage = () => {
   let shoe: any = useParams().id;
   let selectedData = Data.filter((item) => item.path.includes(shoe))[0];
@@ -22,9 +22,29 @@ const ProductPage = () => {
   isFavorite = isFavorite != null ? JSON.parse(isFavorite).includes(id) : null;
   let heartType = isFavorite ? "solid" : "outline";
 
-  const [heart, setHeart] = useState(heartType);
 
-  console.log(selectedData);
+  const [addedToCart, setAddedToCart] = useState(false)
+
+  function updatedButtons(){
+    let cart:any = localStorage.getItem("cart")
+    cart = cart ? JSON.parse(cart) : "";
+    if(cart != null){
+      for(let i=0; i<=cart.length-1; i++){
+        if(cart[i].id === id){
+          console.log("Is Added")
+          setAddedToCart(true)
+        } else {
+          setAddedToCart(false)
+        }
+      }
+    }
+  }
+
+  useEffect(() => {
+    updatedButtons()
+  }, [])
+
+  const [heart, setHeart] = useState(heartType);
 
   function makeActive(e: any) {
     let allSizes = document.getElementsByClassName("sizes")[0];
@@ -71,22 +91,27 @@ const ProductPage = () => {
     }
 
     //Change all heart counters based on the number of hearted objects
-    let heartCounter = document.getElementsByClassName("heartCounter");
+    let heartCounter = document.getElementsByClassName("heartCounter")
     favorites = localStorage.getItem("favorites");
     let count = favorites != null ? JSON.parse(favorites).length : "";
-    for (let i = 0; i <= heartCounter.length - 1; i++) {
-      if (count === 0) {
-        heartCounter[i].innerHTML = "";
-      } else {
-        heartCounter[i].innerHTML = count;
-      }
+    for(let i=0; i<=heartCounter.length-1; i++){
+        if(count === 0){
+            heartCounter[i].innerHTML = "";
+            heartCounter[i].classList.add("hidden")
+            heartCounter[i].classList.remove("block")
+        } else if(count > 0) {
+            heartCounter[i].innerHTML = count;
+            heartCounter[i].classList.add("block")
+            heartCounter[i].classList.remove("hidden")
+        }
     }
   };
 
-  function addToCart() {
+  function addToCart(e:any) {
     //Create new object 'template' that includes id and selected size
     let allSizes = document.getElementsByClassName("sizes")[0].children;
     let selectedSize;
+
     [...allSizes].forEach((size) => {
       if (size.classList.contains("selectedSize")) {
         selectedSize = size.innerHTML;
@@ -94,9 +119,8 @@ const ProductPage = () => {
     });
 
     if (selectedSize != undefined) {
-      document
-        .getElementsByClassName("selectSizeLabel")[0]
-        .classList.remove("text-red-400");
+      document.getElementsByClassName("selectSizeLabel")[0].classList.remove("text-red-400");
+      document.getElementsByClassName("errorMessage")[0].classList.toggle("hidden")
       let storedCart = localStorage.getItem("cart");
       let data = storedCart ? JSON.parse(storedCart) : "";
       let template = {
@@ -118,6 +142,7 @@ const ProductPage = () => {
           //If cart does not already contain:
           data.push(template);
           localStorage.setItem("cart", JSON.stringify(data));
+          e.target.style.display="none"
         } else {
             console.log('already exists, skipping')
         }
@@ -125,22 +150,30 @@ const ProductPage = () => {
         console.log("NOTHING IN CART")
         //If nothing in cart
         localStorage.setItem("cart", `[${JSON.stringify(template)}]`);
+        e.target.style.display="none"
       }
     } else {
       //Turn red and don't continue
-      document
-        .getElementsByClassName("selectSizeLabel")[0]
-        .classList.add("text-red-400");
+        document.getElementsByClassName("selectSizeLabel")[0].classList.add("text-red-400");
+        document.getElementsByClassName("errorMessage")[0].classList.toggle("hidden")
     }
-    //update cart number
+
+    //Change all heart counters based on the number of hearted objects
     let cartCounter = document.getElementsByClassName("cartCounter")
-    let parsedData = localStorage.getItem("cart") != null ? localStorage.getItem("cart") : ""
-    let count = JSON.parse(parsedData != null ? parsedData : "").length
-    console.log(count)
-    for(let i=0; i <= cartCounter.length-1; i++){
-        // console.log(cartCounter[i].innerHTML)
-        cartCounter[i].innerHTML = count;
+    let cart = localStorage.getItem("cart");
+    let cartCount = cart != null ? JSON.parse(cart).length : "";
+    for(let i=0; i<=cartCounter.length-1; i++){
+        if(cartCount === 0){
+          cartCounter[i].innerHTML = "";
+          cartCounter[i].classList.add("hidden")
+          cartCounter[i].classList.remove("block")
+        } else if(cartCount > 0) {
+          cartCounter[i].innerHTML = cartCount;
+          cartCounter[i].classList.add("block")
+          cartCounter[i].classList.remove("hidden")
+        }
     }
+    updatedButtons()
   }
 
   return (
@@ -200,12 +233,20 @@ const ProductPage = () => {
           <h3 className="text-xl font-medium">Description</h3>
           <p>{selectedData.description}</p>
         </div>
+        <div className="w-full mt-5">
+          <p className="errorMessage text-red-500 hidden">*Please select a size</p>
         <button
-          className="border w-full py-3 rounded text-white bg-[#1C1C1C] font-medium mt-5 hover:cursor-pointer hover:bg-[#2b2b2b]"
-          onClick={addToCart}
+          className={`addToCartButton border w-full py-3 rounded text-white bg-[#1C1C1C] font-medium hover:cursor-pointer hover:bg-[#2b2b2b] ${addedToCart ? "hidden" : "block"}`}
+          onClick={(e) => addToCart(e)}
         >
           Add To Cart
         </button>
+        <button
+          className={`addedToCart border w-full py-3 rounded text-gray-500 bg-white font-medium ${addedToCart ? "block" : "hidden"}`}
+        >
+          Added To Cart
+        </button>
+        </div>
         <div className="w-full flex flex-row justify-between items-center mt-5">
           <div className="freeShipping flex flex-row items-center gap-2 sm:gap-5">
             <FontAwesomeIcon

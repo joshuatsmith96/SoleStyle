@@ -64,8 +64,12 @@ const ProductTile: React.FC<ProductProps> = ({img, product, price, path, id, hea
         for(let i=0; i<=heartCounter.length-1; i++){
             if(count === 0){
                 heartCounter[i].innerHTML = "";
-            } else {
+                heartCounter[i].classList.add("hidden")
+                heartCounter[i].classList.remove("block")
+            } else if(count > 0) {
                 heartCounter[i].innerHTML = count;
+                heartCounter[i].classList.add("block")
+                heartCounter[i].classList.remove("hidden")
             }
         }
     }

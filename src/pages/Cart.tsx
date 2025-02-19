@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import Data from '../test-data.json'
+import Data from '../test-data.json';
 
 const Cart = () => {
     let cartObjects = localStorage.getItem("cart");
