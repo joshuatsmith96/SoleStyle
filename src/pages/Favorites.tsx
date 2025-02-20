@@ -19,6 +19,7 @@ const Favorites = () => {
                 // const featuredItems = Data.filter(item => item.featured);
                 let filteredData = Data.filter(data => data.id === x)
                 heartedData.push(filteredData[0])
+                console.log(heartedData)
             })
     
             returnData = heartedData.map((item: any) => {

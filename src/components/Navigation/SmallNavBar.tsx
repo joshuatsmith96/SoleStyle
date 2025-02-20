@@ -24,7 +24,7 @@ export default function SmallNavBar() {
   //Get number of liked items
 
   return (
-    <div className="fixed top-0 left-0 w-full py-2 px-5 flex flex-col justify-between gap-4 md:hidden bg-white z-10 transition-3">
+    <div className="fixed top-0 left-0 w-full py-4 px-5 flex flex-col justify-between gap-4 md:hidden bg-white z-10 transition-3">
       <div className="flex flex-row justify-between items-center">
         <h2 className="font-bold text-2xl">
           <a href="/">SoleStyle</a>

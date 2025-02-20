@@ -120,7 +120,7 @@ const ProductPage = () => {
 
     if (selectedSize != undefined) {
       document.getElementsByClassName("selectSizeLabel")[0].classList.remove("text-red-400");
-      document.getElementsByClassName("errorMessage")[0].classList.toggle("hidden")
+      document.getElementsByClassName("errorMessage")[0].classList.add("hidden")
       let storedCart = localStorage.getItem("cart");
       let data = storedCart ? JSON.parse(storedCart) : "";
       let template = {
@@ -155,7 +155,7 @@ const ProductPage = () => {
     } else {
       //Turn red and don't continue
         document.getElementsByClassName("selectSizeLabel")[0].classList.add("text-red-400");
-        document.getElementsByClassName("errorMessage")[0].classList.toggle("hidden")
+        document.getElementsByClassName("errorMessage")[0].classList.remove("hidden")
     }
 
     //Change all heart counters based on the number of hearted objects

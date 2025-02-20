@@ -28,7 +28,7 @@ const Section: React.FC<SectionProps> = ({ children, title, scrollButtons, butto
 
   return (
     <div className="Section relative flex flex-col py-2 px-4 md:px-15 xl:py-10 z-1">
-      <div className={`absolute top-1/2 justify-between w-[90%] gap-2 mb-2 hidden ${scrollButtons ? 'md:flex' : 'hidden'}`}>
+      <div className={`absolute top-1/2 justify-between w-[90%] xl:w-[91%] 2xl:w-[93%] 3xl:w-[95%] gap-2 mb-2 hidden ${scrollButtons ? 'md:flex' : 'hidden'}`}>
       <button
           className={`absolute left-[-20px] w-[75px] h-[75px] text-3xl rounded-full bg-white shadow shadow-black hover:cursor-pointer z-1 ${buttonColor ? buttonColor : ""}`}
           onClick={scrollLeft}
@@ -36,7 +36,7 @@ const Section: React.FC<SectionProps> = ({ children, title, scrollButtons, butto
           <FontAwesomeIcon icon={faChevronLeft} className=""/>
         </button>
         <button
-          className={`absolute right-0 w-[75px] h-[75px] text-3xl rounded-full bg-white shadow shadow-black hover:cursor-pointer z-1 ${buttonColor ? buttonColor : ""}`}
+          className={`absolute right-0 lg:right-[-30px] w-[75px] h-[75px] text-3xl rounded-full bg-white shadow shadow-black hover:cursor-pointer z-1 ${buttonColor ? buttonColor : ""}`}
           onClick={scrollRight}
         >
           <FontAwesomeIcon icon={faChevronRight} className=""/>
@@ -48,7 +48,7 @@ const Section: React.FC<SectionProps> = ({ children, title, scrollButtons, butto
         </h3>
         <div
           ref={scrollRef}
-          className="hideScrollers whitespace-nowrap flex flex-row items-center gap-5 overflow-x-scroll text-lg md:justify-between xl:gap-15 py-5 px-1"
+          className="hideScrollers whitespace-nowrap flex flex-row items-start gap-5 overflow-x-scroll text-lg md:justify-between xl:gap-15 py-5 px-1"
         >
           {children}
         </div>
