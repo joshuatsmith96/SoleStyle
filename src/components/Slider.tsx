@@ -29,8 +29,9 @@ const Slider: React.FC<SliderProps> = ({ data }) => {
   window.addEventListener("resize", handleScreenSizeChange)
 
   return (
-    <Carousel
-    className="carousel sm:w-[600px] overflow-x-visible md:bingbong"
+    <div className="sm:w-[600px]">
+          <Carousel
+    className="carousel overflow-x-visible md:bingbong"
     swipeScrollTolerance={5}
     emulateTouch
     showThumbs={showThumbs}
@@ -45,6 +46,7 @@ const Slider: React.FC<SliderProps> = ({ data }) => {
       <img src={`../${img}`} />
     </div>
   </Carousel>
+    </div>
   );
 };
 

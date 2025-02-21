@@ -12,8 +12,6 @@ const CategoryPage = () => {
     if(category != "favorites"){
         categoryData = Data.filter(item => item.categories.toString().toLowerCase().includes(category))
     } else {
-        categoryData = Data.filter(item => item.categories.toString().toLowerCase().includes(category))
-
         let favorites = localStorage.getItem('favorites');
         let parsedFavorites = favorites != null ? JSON.parse(favorites) : null
         let heartedData:any = []
@@ -42,6 +40,7 @@ const CategoryPage = () => {
                         <ProductTile key={item.id} id={item.id} product={item.name} price={item.price} img={item.thumbnail} path={item.path} heartStyle={heartStyle}/>
                     )
                 })}
+                <h1 className={`w-full text-center text-xl font-medium py-50 ${categoryData.length === 0 ? 'block' : 'hidden'}`}>Nothing To Display Yet</h1>
             </div>
         </div>
     )

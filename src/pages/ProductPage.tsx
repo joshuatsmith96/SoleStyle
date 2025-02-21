@@ -126,6 +126,7 @@ const ProductPage = () => {
       let template = {
         id: id,
         size: selectedSize,
+        quantity: 1
       };
 
       if (storedCart != null) {

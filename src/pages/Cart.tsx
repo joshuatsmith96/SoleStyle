@@ -1,3 +1,4 @@
+import CartTile from '../components/CartTiles';
 import Data from '../test-data.json';
 
 const Cart = () => {
@@ -13,20 +14,17 @@ const Cart = () => {
         }
     }
 
-    console.log(cartData)
-
     return(
-        <div className="Cart px-4 pb-[400px]">
+        <div className="Cart px-4 py-10 pb-[400px] bg-[#f1f1f1]">
             <h1 className="text-2xl font-medium">Shopping Cart</h1>
             <p>{cartData != null && cartData.length > 0 ? "" : "Cart Is Empty"}</p>
 
             <div>
                 {cartData.map((item) => {
+                    let size = cartObjects;
+                    console.log(size)
                     return(
-                        <div className='border p-5 my-3'>
-                            <h1>{item.name}</h1>
-                            <p>{item.price}</p>
-                        </div>
+                        <CartTile key={item.id} name={item.name} thumbnail={item.thumbnail} price={item.price} id={item.id}/>
                     )
                 })}
             </div>
