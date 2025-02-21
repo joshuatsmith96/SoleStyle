@@ -29,7 +29,7 @@ export default function Home(){
         <div className="Home">
             <Hero />
             <RollingSection title="Shop by Category" scrollButtons>
-                <CategoryTile title="New Arrivals" path="new-arrivals" img={NewArrivals}/>
+                <CategoryTile title="New Arrivals" path="new arrivals" img={NewArrivals}/>
                 <CategoryTile title="Men" path="men" img={MenImage}/>
                 <CategoryTile title="Women" path="women" img={WomenImage}/>
                 <CategoryTile title="Children" path="children" img={ChildrenImage}/>

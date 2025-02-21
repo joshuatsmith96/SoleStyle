@@ -76,9 +76,9 @@ const ProductTile: React.FC<ProductProps> = ({img, product, price, path, id, hea
 
     return(
         <div className="w-[300px] rounded flex-shrink-0 shadow-md shadow-gray-700 2xl:w-[320px]">
-            <Link to={`/product/${path}`}><img src={img} alt={`Product image for ${product}`} className="rounded-t h-[170px] w-full object-cover 2xl:h-[220px]" /></Link>
+            <Link to={`/product/${path.toLowerCase()}`}><img src={img} alt={`Product image for ${product}`} className="rounded-t h-[170px] w-full object-cover 2xl:h-[220px]" /></Link>
             <div className="p-2 px-5 xl:py-4">
-            <Link to={`/product/${path}`}><p className="text-sm font-medium xl:text-md overflow-hidden">{product}</p></Link>
+            <Link to={`/product/${path.toLowerCase()}`}><p className="text-sm font-medium xl:text-md overflow-hidden">{product}</p></Link>
                 <div className="flex flex-row justify-between pt-3">
                     <p className="text-sm xl:text-md">${price}</p>
                     <div className="hearts">
