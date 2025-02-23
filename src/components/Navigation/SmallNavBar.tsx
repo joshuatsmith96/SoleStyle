@@ -30,7 +30,6 @@ export default function SmallNavBar() {
           <a href="/">SoleStyle</a>
         </h2>
         <div className="icons flex flex-row justify-center items-center gap-10 text-xl">
-          <Link to="/profile" className="text-2xl"><FontAwesomeIcon icon={faUser} className="" /></Link>
           <Link to="/favorites" className="relative">
             <p className={`heartCounter absolute text-white text-sm border z-10 bg-blue-400 w-[20px] h-[20px] rounded-full text-center top-[-8px] right-[-12px] flex flex-row justify-center items-center ${favoriteStyle}`}>{formattedFavorites.length === 0 ? "" : formattedFavorites.length}</p>
             <FontAwesomeIcon icon={faHeart} className="text-2xl "/>

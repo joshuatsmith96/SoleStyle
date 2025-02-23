@@ -34,7 +34,6 @@ function App() {
       <LargeNavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />}/>
         <Route path="/cart" element={<Cart />}/>
         <Route path="/favorites" element={<CategoryPage />}/>
         <Route path="/product/:id" element={<ProductPage/>}/>

@@ -31,7 +31,6 @@ export default function LargeNavBar() {
         <div className="flex flex-row gap-10">
           <SearchBar />
           <div className="icons flex flex-row justify-center items-center gap-10 text-xl">
-          <Link to="/profile" className="text-3xl"><FontAwesomeIcon icon={faUser} className="" /></Link>
           <Link to="/favorites" className="relative">
             <p className={`heartCounter absolute text-white text-[16px] border z-10 bg-blue-400 w-[25px] h-[25px] rounded-full text-center top-[-10px] right-[-14px] flex flex-row justify-center items-center ${favoriteStyle}`}>{formattedFavorites.length === 0 ? "" : formattedFavorites.length}</p>
             <FontAwesomeIcon icon={faHeart} className="text-3xl "/>
