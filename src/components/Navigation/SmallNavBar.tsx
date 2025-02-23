@@ -1,6 +1,5 @@
 //Import Dependencies
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router";
@@ -9,7 +8,6 @@ import { Link } from "react-router";
 import SearchBar from "../Search/SearchBar";
 import NavList from "./NavList";
 import "./Nav.css";
-import { useEffect } from "react";
 
 export default function SmallNavBar() {
   

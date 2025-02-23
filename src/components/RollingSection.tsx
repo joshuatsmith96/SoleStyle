@@ -1,7 +1,5 @@
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
-import { faChevronCircleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 interface SectionProps {

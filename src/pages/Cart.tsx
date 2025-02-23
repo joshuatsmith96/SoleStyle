@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from 'react';
+import { useState } from 'react';
 import CartTile from '../components/CartTiles';
 import Data from '../test-data.json';
 
