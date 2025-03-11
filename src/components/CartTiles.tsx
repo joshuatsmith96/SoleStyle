@@ -12,11 +12,14 @@ interface CartTileProps {
 
 const CartTile: React.FC<CartTileProps> = ({ name, thumbnail, price, id, removeItem, updateTotal }) => {
     const [prodPrice, setProdPrice] = useState(parseFloat(price).toFixed(2));
+    const [size, setSize] = useState("")
     const [quantity, setQuantity] = useState(1);
 
     useEffect(() => {
         let cart = JSON.parse(localStorage.getItem("cart") || "[]");
         let product = cart.find((item: any) => item.id === id);
+
+        setSize(product.size)
         if (product) {
             setQuantity(product.quantity || 1);
             setProdPrice((parseFloat(price) * product.quantity).toFixed(2));
@@ -44,7 +47,7 @@ const CartTile: React.FC<CartTileProps> = ({ name, thumbnail, price, id, removeI
                 </Link>
                 <div>
                     <h1 className='text-md font-medium'>{name}</h1>
-                    <h2 className='text-md text-[#505050]'>Size: Test</h2>
+                    <h2 className='text-md text-[#505050]'>Size: {size}</h2>
                     <div className="flex flex-row items-center gap-3">
                         <select value={quantity} onChange={(e) => setNewQuantity(e.target.value)} className='w-[60px] border px-1 rounded border-gray-500'>
                             {[...Array(10)].map((_, i) => (
