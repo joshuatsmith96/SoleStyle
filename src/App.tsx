@@ -36,7 +36,7 @@ function App() {
         <Route path="/favorites" element={<CategoryPage />}/>
         <Route path="/product/:id" element={<ProductPage/>}/>
         <Route path="/category/:id" element={<CategoryPage/>}/>
-        <Route path="*" element={<Error />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
       <Footer />
     </div>

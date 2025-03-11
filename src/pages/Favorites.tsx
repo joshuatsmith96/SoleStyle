@@ -4,7 +4,6 @@ import ProductTile from '../components/ProductTile';
 const Favorites = () => {
     let favorites = localStorage.getItem('favorites');
     let parsedFavorites = favorites != null ? JSON.parse(favorites) : null
-    console.log(parsedFavorites)
 
     //Loop through parsedFavorites array
 
@@ -22,12 +21,12 @@ const Favorites = () => {
                 console.log(heartedData)
             })
     
-            returnData = heartedData.map((item: any) => {
+            returnData ? returnData = heartedData.map((item: any) => {
                 let heartStyle = parsedFavorites?.includes(item.id) ? "solid" : "outline"
                 return(
                     <ProductTile key={item.id} id={item.id} product={item.name} price={item.price} img={item.thumbnail} path={item.path} heartStyle={heartStyle}/>
                 )
-            })
+            }) : ""
         } else {
             return(
                 <h1>No favorites yet</h1>

@@ -15,12 +15,12 @@ const CategoryPage = () => {
         let favorites = localStorage.getItem('favorites');
         let parsedFavorites = favorites != null ? JSON.parse(favorites) : null
         let heartedData:any = []
-        parsedFavorites.map((x: any) => {
+        parsedFavorites ? parsedFavorites.map((x: any) => {
             // const featuredItems = Data.filter(item => item.featured);
             let filteredData = Data.filter(data => data.id === x)
             heartedData.push(filteredData[0])
             console.log(heartedData)
-        })
+        }) : "";
         categoryData = heartedData;
     }
 

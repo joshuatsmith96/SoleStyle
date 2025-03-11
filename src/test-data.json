@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Nike Air Max 270",
         "path": "nike-air-max-270",
-        "thumbnail": "..//assets/shoe1.png",
+        "thumbnail": "/assets/shoe1.png",
         "categories": [
             "New Arrivals",
             "Men",
